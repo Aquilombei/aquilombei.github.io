@@ -1,0 +1,1 @@
+# Atribuição do mapa de Minas Gerais`n`nAdaptado de MinasGerais Meso Jequitinhonha.svg, de Raphael Lorenzeto de Abreu, disponível no Wikimedia Commons sob licença CC BY 2.5: https://commons.wikimedia.org/wiki/File:MinasGerais_Meso_Jequitinhonha.svg

@@ -284,7 +284,7 @@ blockquote {
 }
 .work-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   border-top: 1px solid #ffffff40;
   border-left: 1px solid #ffffff40;
 }
@@ -546,6 +546,9 @@ footer a {
   .work-grid {
     grid-template-columns: 1fr 1fr;
   }
+  .work-card:last-child {
+    grid-column: 1 / -1;
+  }
   .territory-art {
     width: min(100%, 520px);
     margin: auto;
@@ -589,6 +592,9 @@ footer a {
   }
   .work-grid {
     grid-template-columns: 1fr;
+  }
+  .work-card:last-child {
+    grid-column: auto;
   }
   .work-card {
     min-height: auto;

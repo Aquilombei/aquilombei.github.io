@@ -60,10 +60,10 @@ img {
   backdrop-filter: blur(12px);
 }
 .brand img {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  object-fit: cover;
+  width: auto;
+  height: 76px;
+  display: block;
+  object-fit: contain;
 }
 nav {
   display: flex;
@@ -100,7 +100,7 @@ nav a:hover {
   overflow: hidden;
 }
 .hero-copy {
-  padding: clamp(56px, 9vw, 130px) clamp(24px, 6vw, 100px);
+  padding: clamp(48px, 6vw, 96px) clamp(24px, 5vw, 80px);
   align-self: center;
 }
 .eyebrow {
@@ -121,9 +121,10 @@ h2 {
   letter-spacing: -0.035em;
 }
 h1 {
-  max-width: 760px;
+  max-width: 680px;
   margin: 0;
-  font-size: clamp(3rem, 7.2vw, 7.4rem);
+  font-size: clamp(3rem, 5.4vw, 5.8rem);
+  text-wrap: balance;
 }
 h1 span {
   color: var(--wine);
@@ -471,9 +472,9 @@ footer {
   gap: 16px;
 }
 .footer-brand img {
-  width: 58px;
-  height: 58px;
-  border-radius: 50%;
+  width: auto;
+  height: 76px;
+  object-fit: contain;
 }
 footer a {
   font-weight: 700;
@@ -558,8 +559,8 @@ footer a {
     min-height: 84px;
   }
   .brand img {
-    width: 58px;
-    height: 58px;
+    width: auto;
+    height: 64px;
   }
   nav {
     top: 84px;

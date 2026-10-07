@@ -451,6 +451,10 @@ h3 {
   font-size: 0.9rem !important;
   opacity: 0.8;
 }
+.contact-note a {
+  color: inherit;
+  font-weight: 700;
+}
 footer {
   padding: 32px clamp(24px, 6vw, 100px);
   display: flex;
